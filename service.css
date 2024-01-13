@@ -1,0 +1,102 @@
+body {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url(GREEN-BACKGROUND.jpg);
+  }
+  
+  .am-container {
+    max-width: 700px;
+    margin: 80px auto 20px; 
+    border: 1px solid #696969;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(27, 27, 27, 0.1);
+    background-color: #ffffff;
+    padding: 20px; 
+  }
+  
+  .am-about h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .am-about-content {
+    display: flex; 
+    align-items: flex-end;
+  }
+  
+  .am-about img {
+    max-width: 300px; 
+    height: auto;
+    margin-right: 70px;
+  }
+  
+  .am-about-text {
+    flex-grow: 1; 
+  }
+  
+  .am-about p {
+    margin-bottom: 15px;
+  }
+
+  .am-footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+  }
+  
+  .am-footer-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .am-footer-info {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 3px 3px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #e6221b;
+    color: white;
+  }
+
+  .am-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #56c99d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .am-btn:hover {
+    background-color: #000000;
+  }
+  
